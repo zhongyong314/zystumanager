@@ -1,0 +1,7 @@
+com\jinglin\wmy\service\StuInfoService.class
+com\jinglin\wmy\service\impl\StuInfoServiceImpl.class
+com\jinglin\wmy\model\PageInfo.class
+com\jinglin\wmy\model\StuInfo.class
+com\jinglin\wmy\dao\IDao.class
+com\jinglin\wmy\dao\impl\StuInfoDao.class
+com\jinglin\wmy\controller\StuInfoController.class
