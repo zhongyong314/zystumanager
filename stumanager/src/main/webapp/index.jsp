@@ -13,8 +13,7 @@
 <script type="text/javascript">
 
 	function searchUser(){
-		var stuname = $("#stuname").val();
-		alert(stuname);
+
 		$("#dg").datagrid('load',{ 
 			"stuname":$("#stuname").val(),
 			"subjectname":$("#subjectname").val(),
