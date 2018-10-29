@@ -18,6 +18,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			<if test="age!=null and age>0 ">
 				 and age=#{age}
 			</if>
+			<if test="conditional!=null and conditional !=''">
+			    and ${conditional}
+			</if>
 		</where>
 		<if test="pageIndex!=null and pageSize!=null">
 		 		  limit #{pageIndex},#{pageSize}
@@ -39,7 +42,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				 and age=#{age}
 			</if>
 			<if test="conditional!=null and conditional !=''">
-			    ${conditional}
+			    and  ${conditional}
 			</if>
 		</where>
 	</select>
