@@ -31,6 +31,7 @@
  	<a href="javascript:searchUser()" class="easyui-linkbutton" iconCls="icon-search" plain="true">搜索</a>
  </div>
 </div>
+<!-- 内容区域   -->
 <table id="dg" title="学生管理" class="easyui-datagrid"
   fitColumns="true" pagination="true" rownumbers="true"
   url="${pageContext.request.contextPath}/stuInfo/getstuinfos.action" fit="true" toolbar="#tb">
